@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "react-scripts --coverage",
     "start": "ts-node-dev src/index.ts"
   },
   "author": "",

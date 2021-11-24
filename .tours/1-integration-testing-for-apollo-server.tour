@@ -18,7 +18,7 @@
     },
     {
       "file": "src/test/setup.ts",
-      "description": "As we don't want our tests to modify our application database, we use and create a connection to a `fake` mogodatabase stored only in memory.\n\nIf `SQL` is required you can perform the same with a `Sqlite in memory` database",
+      "description": "As we don't want our tests to modify our application database, we use and create a connection to a `fake` mongodatabase stored only in memory.\n\nIf `SQL` is required you can perform the same with a `Sqlite in memory` database",
       "line": 12
     },
     {

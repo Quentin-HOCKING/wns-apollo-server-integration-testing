@@ -30,7 +30,7 @@ describe('wilder resolver', () => {
 
       const wilderFromResponse = res.data?.createWilder;
 
-      expect(res.data?.createWilder).toEqual(
+      expect(wilderFromResponse).toEqual(
         expect.objectContaining({ name: 'Jane Doe', city: 'Paris' })
       );
 
